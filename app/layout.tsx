@@ -13,7 +13,7 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: 'LiveDocs',
+  title: 'DocuFlex',
   description: 'Your go-to collaborative editor',
 }
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <ClerkProvider
       appearance={{
         baseTheme: dark,
-        variables: { 
+        variables: {
           colorPrimary: "#3371FF" ,
           fontSize: '16px'
         },
